@@ -34,17 +34,69 @@ text-align: center;
 line-height: 60px;
 }
 
-header center#icono1{
+header center p {
+    text-align: center;
+    width: 42px;
+    line-height: 42px;
+    border-radius: 100%;
+    background: #ccc;
+    color: white;
+}
+
+header center#icono1 p{
     background-color: blue;
 }
 
-header center#icono2{
+header center#icono2 p{
     background-color: green;
 }
 
-header center#icono3{
+header center#icono3 p{
     background-color: red;
 }
+
+nav ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a{
+    display: block;
+    background-color: rgb(104, 22, 104);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 48px;
+}
+
+nav ul li a:hover {
+    background: rosybrown;
+}
+
+nav ul li a:active{
+    background: rgb(224, 22, 224);
+}
+
+#seccion3 center{
+    padding: 20px;
+}
+
+#seccion3 img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+#seccion3 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#seccion3 p{
+    padding: 10px;
+}
+
 
 @media(min-width:1200px){
 	.col-lg-12{width:100%;}
@@ -59,6 +111,8 @@ header center#icono3{
 	.col-lg-3{width:25%;}
 	.col-lg-2{width:16.66666667%;}
 	.col-lg-1{width:8.333333333%;}
+    .col-lg-0{display:none;}
+
 }
 @media(max-width:1199px) and (min-width: 992px){
     .col-md-12{width:100%;}
@@ -73,6 +127,7 @@ header center#icono3{
     .col-md-3{width:25%;}
     .col-md-2{width:16.66666667%;}
     .col-md-1{width:8.333333333%;}
+    .col-md-0{display:none}
 }
 @media(max-width:991px) and (min-width:768px){
     .col-sm-12{width:100%;}
@@ -86,7 +141,8 @@ header center#icono3{
     .col-sm-4{width:33.33333333%;}
     .col-sm-3{width:25%;}
     .col-sm-2{width:16.66666667%;}
-    .col-sm-1{width:8.333333333%;}  
+    .col-sm-1{width:8.333333333%;}
+    .col-sm-0{display:none;}  
 }
 @media(max-width:767px) {
     .col-xs-12{width:100%;}
@@ -101,4 +157,5 @@ header center#icono3{
     .col-xs-3{width:25%;}
     .col-xs-2{width:16.66666667%;}
     .col-xs-1{width:8.333333333%;}
+    .col-xs-0{display:none;}
 }
