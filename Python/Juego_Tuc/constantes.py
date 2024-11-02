@@ -1,14 +1,11 @@
-# Constantes.py
+import os
 
 # Dimensiones de la pantalla
-SCREEN_WIDTH = 1700
-SCREEN_HEIGTH = 1000
+SCREEN_WIDTH = 1280
+SCREEN_HEIGTH = 720
 
-# Ruta de los assets
-ASSETS_PATH = "C:/Users/Franco/TUP/4to Semestre/Python/Juego_Tuc/assets"
+# Colores
+COLOR_LASER = (0, 0, 255)  # Azul
 
-#Ruta de los archivos
-IMPERIAL_MARCH_PATH = f'{ASSETS_PATH}/sounds/ IMPERIALMARCH - Kenobi.mp3'
-START_IMAGE_PATH = f'{ASSETS_PATH}/image/inicio/star.png'
-ESTRELLA_PATH = f'{ASSETS_PATH}/image/inicio/estrella'
-FONDO1_PATH = f'{ASSETS_PATH}/image/fondo1.jpg'
+# Ruta a los assets
+ASSETS_PATH = os.path.join(os.path.dirname(__file__), 'assets')
